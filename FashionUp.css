@@ -1,0 +1,153 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0; 
+    padding: 20px;
+    background-color: #c4bec4;
+    background-size: contain; 
+    color: #010103;
+    text-align: justify; 
+}
+
+header {
+    text-align: center;
+    color: #010103; 
+    background-color: #c4bec4;
+    padding: 15px;
+    background-size: contain; 
+}
+
+header h1 {
+    font-family: 'Meringue', sans-serif;
+    font-size: 75pt;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 20px;
+}
+
+main {
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+header {
+    background-size: cover;  
+    background-position: center; 
+    padding: 50px; 
+}
+
+section {
+    background-size: cover; 
+    background-position: center; 
+    padding: 30px; 
+    height: auto; 
+}
+
+section h2 {
+    font-family: 'Meringue', sans-serif;
+    font-size: 40pt;
+    text-align: center;
+
+}
+
+
+/* Link Styles */
+a:link {
+    color: #cf3c72;
+}
+
+a:visited {
+    color: #cf3c72; 
+}
+
+a:hover {
+    color: #cf3c72; 
+}
+
+a:active {
+    color: #cf3c72; 
+} 
+
+a { /* Base link styles */
+    text-decoration: none; 
+}
+
+/* Scroll to Top Button */
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; 
+    background-color: #cf3c72;
+    color: #ffd9e6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#scrollTopBtn:hover {
+    background-color: #fa91b2;
+}
+
+#section1 img {
+    max-width: 100%;  
+    height: auto;     
+    display: block;   
+    margin: 0 auto;   
+}
+
+#section2 img {
+    max-width: 100%;  
+    height: auto;     
+    display: block;   
+    margin: 0 auto;   
+}
+
+#section4 img {
+    max-width: 100%;  
+    height: auto;     
+    display: block;   
+    margin: 0 auto;   
+}
+
+form {
+    width: 500px; 
+    margin: 30px auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    display: flex;           
+    flex-direction: column;  
+    align-items: center;     
+}
+
+label { 
+   display: block; 
+   margin-bottom: 5px; 
+   text-align: left;        
+}
+
+input[type="submit"] {
+    background-color: #cf3c72;  
+    color: #ffd9e6;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
